@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["**"]
   pull_request:
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
 
       - name: Run basic test script
         run: |
-          if [ -f test.py ]; then python test.py; else python -c "print('Basic test passed ✅')"; fi
+          python test.py
 
       - name: Success message
         run: echo "✅ CI completed successfully!"
