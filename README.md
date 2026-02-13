@@ -18,3 +18,4 @@ You must:
 5. Dockerize and run with docker-compose
 6. Push everything to a NEW public GitHub repo
 # trigger CI
+# trigger actions
