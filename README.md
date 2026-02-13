@@ -17,3 +17,4 @@ You must:
 4. Add email alerts on failure
 5. Dockerize and run with docker-compose
 6. Push everything to a NEW public GitHub repo
+# trigger CI
